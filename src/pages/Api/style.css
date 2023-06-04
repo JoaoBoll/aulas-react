@@ -1,0 +1,57 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-content: center;
+}
+
+h1 {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    font-size: 35px;
+    height: 60px;
+    width: 100%;
+    background-color: blue;
+    color: white;
+}
+
+.post{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    with: 700px;
+    background-color: white;
+    border-radius:7px;
+    border-width: 1px;
+    margin: 8px;
+    padding: 10px;
+}
+
+.subtitulo {
+    margin: 5px;
+}
+
+.botao {
+    height: 40px;
+    background: none;
+    border-radius: 5px;
+    color: blue;
+    border: 2px solid blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    transition: all 0.5s;
+}
+.botao:hover {
+    background-color: blue;
+    color: white;
+}
